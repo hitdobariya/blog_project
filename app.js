@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
 app.get("/", (req, res)=>{
-    res.render("register.ejs");
+    res.render("login.ejs");
 });
 
 const userRoutes = require('./routes/user.routes');
